@@ -1,0 +1,46 @@
+
+
+
+
+
+Here are some related repositories:
+* https://github.com/klattimer/LGWebOSRemote
+* https://github.com/chros73/bscpylgtv
+* https://github.com/bendavid/aiopylgtv
+
+
+
+
+```zsh
+swift package describe --type mermaid >> README.md
+code README.md
+```
+
+
+```mermaid
+flowchart TB
+    subgraph lgtv-cli
+        product:LGTVControllerPackageTests[[LGTVControllerPackageTests]]-->target:LGTVWebOSControllerTests(LGTVWebOSControllerTests)
+        product:LGTVWebOSController[[LGTVWebOSController]]-->target:LGTVWebOSController(LGTVWebOSController)
+        product:lgtv[[lgtv]]-->target:LGTVControllerCLI(LGTVControllerCLI)
+        target:LGTVWebOSControllerTests(LGTVWebOSControllerTests)-->target:LGTVWebOSController(LGTVWebOSController)
+        target:LGTVControllerCLI(LGTVControllerCLI)-->target:LGTVWebOSController(LGTVWebOSController)
+    end
+
+    subgraph swift-nio
+        target:LGTVWebOSController(LGTVWebOSController)-->NIO{{NIO}}
+        target:LGTVWebOSController(LGTVWebOSController)-->NIOFoundationCompat{{NIOFoundationCompat}}
+    end
+
+    subgraph swift-nio-ssl
+        target:LGTVWebOSController(LGTVWebOSController)-->NIOSSL{{NIOSSL}}
+    end
+
+    subgraph websocket-kit
+        target:LGTVWebOSController(LGTVWebOSController)-->WebSocketKit{{WebSocketKit}}
+    end
+
+    subgraph swift-argument-parser
+        target:LGTVControllerCLI(LGTVControllerCLI)-->ArgumentParser{{ArgumentParser}}
+    end
+```

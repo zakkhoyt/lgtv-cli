@@ -1,0 +1,120 @@
+Name: LGTVController
+Manifest display name: LGTVController
+Path: /Users/zakkhoyt/code/repositories/z2k/github/lgtv-cli
+Tools version: 5.9
+Dependencies:
+    Type:
+        sourceControl
+    Identity:
+        swift-argument-parser
+    Url: https://github.com/apple/swift-argument-parser.git
+    Requirement:
+        Range:
+            Lower bound:
+                1.2.0
+            Upper bound:
+                2.0.0
+
+    Type:
+        sourceControl
+    Identity:
+        swift-nio
+    Url: https://github.com/apple/swift-nio.git
+    Requirement:
+        Range:
+            Lower bound:
+                2.32.0
+            Upper bound:
+                3.0.0
+
+    Type:
+        sourceControl
+    Identity:
+        swift-nio-ssl
+    Url: https://github.com/apple/swift-nio-ssl.git
+    Requirement:
+        Range:
+            Lower bound:
+                2.17.0
+            Upper bound:
+                3.0.0
+
+    Type:
+        sourceControl
+    Identity:
+        websocket-kit
+    Url: https://github.com/vapor/websocket-kit.git
+    Requirement:
+        Range:
+            Lower bound:
+                2.6.0
+            Upper bound:
+                3.0.0
+
+Platforms:
+    Name: macos
+    Version: 14.0
+
+Products:
+    Name: LGTVWebOSController
+    Type:
+        Library:
+            automatic
+    Targets:
+        LGTVWebOSController
+
+    Name: lgtv
+    Type:
+        Executable: nil
+    Targets:
+        LGTVControllerCLI
+
+Targets:
+    Name: LGTVWebOSControllerTests
+    Type: test
+    C99name: LGTVWebOSControllerTests
+    Module type: SwiftTarget
+    Path: Tests/LGTVWebOSControllerTests
+    Sources:
+        LGTVWebOSControllerTests.swift
+    Target dependencies:
+        LGTVWebOSController
+
+    Name: LGTVWebOSController
+    Type: library
+    C99name: LGTVWebOSController
+    Module type: SwiftTarget
+    Path: Sources/LGTVWebOSController
+    Sources:
+        ConfigStore.swift
+        LGTVConfig.swift
+        LGTVWebOSClient.swift
+    Product dependencies:
+        NIO
+        NIOFoundationCompat
+        NIOSSL
+        WebSocketKit
+    Product memberships:
+        LGTVWebOSController
+        lgtv
+
+    Name: LGTVControllerCLI
+    Type: executable
+    C99name: LGTVControllerCLI
+    Module type: SwiftTarget
+    Path: Sources/LGTVControllerCLI
+    Sources:
+        AllCommands.swift
+        AuthCommands.swift
+        CLI.swift
+        Commands.swift
+        EntryPoint.swift
+        LGTVControllerCommand.swift
+    Target dependencies:
+        LGTVWebOSController
+    Product dependencies:
+        ArgumentParser
+    Product memberships:
+        lgtv
+
+

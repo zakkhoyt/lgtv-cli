@@ -1,0 +1,22 @@
+digraph DependenciesGraph {
+node [shape = box]
+"/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal" [label="hatchterminal\n/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal\nunspecified"]
+"https://github.com/swiftlang/swift-docc-plugin" [label="swift-docc-plugin\nhttps://github.com/swiftlang/swift-docc-plugin\n1.4.5"]
+"/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal" -> "https://github.com/swiftlang/swift-docc-plugin"
+"https://github.com/swiftlang/swift-docc-symbolkit" [label="swift-docc-symbolkit\nhttps://github.com/swiftlang/swift-docc-symbolkit\n1.0.0"]
+"https://github.com/swiftlang/swift-docc-plugin" -> "https://github.com/swiftlang/swift-docc-symbolkit"
+"/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal/VWWUtility" [label="vwwutility\n/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal/VWWUtility\nunspecified"]
+"/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal" -> "/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal/VWWUtility"
+"https://github.com/apple/swift-collections.git" [label="swift-collections\nhttps://github.com/apple/swift-collections.git\n1.1.4"]
+"/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal/VWWUtility" -> "https://github.com/apple/swift-collections.git"
+"https://github.com/apple/swift-argument-parser.git" [label="swift-argument-parser\nhttps://github.com/apple/swift-argument-parser.git\n1.5.0"]
+"/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal" -> "https://github.com/apple/swift-argument-parser.git"
+"https://github.com/pointfreeco/swift-snapshot-testing.git" [label="swift-snapshot-testing\nhttps://github.com/pointfreeco/swift-snapshot-testing.git\n1.18.7"]
+"/Users/zakkhoyt/code/repositories/hatch/hatch_mobile/HatchTerminal" -> "https://github.com/pointfreeco/swift-snapshot-testing.git"
+"https://github.com/pointfreeco/swift-custom-dump" [label="swift-custom-dump\nhttps://github.com/pointfreeco/swift-custom-dump\n1.3.3"]
+"https://github.com/pointfreeco/swift-snapshot-testing.git" -> "https://github.com/pointfreeco/swift-custom-dump"
+"https://github.com/pointfreeco/xctest-dynamic-overlay" [label="xctest-dynamic-overlay\nhttps://github.com/pointfreeco/xctest-dynamic-overlay\n1.8.0"]
+"https://github.com/pointfreeco/swift-custom-dump" -> "https://github.com/pointfreeco/xctest-dynamic-overlay"
+"https://github.com/swiftlang/swift-syntax" [label="swift-syntax\nhttps://github.com/swiftlang/swift-syntax\n602.0.0"]
+"https://github.com/pointfreeco/swift-snapshot-testing.git" -> "https://github.com/swiftlang/swift-syntax"
+}

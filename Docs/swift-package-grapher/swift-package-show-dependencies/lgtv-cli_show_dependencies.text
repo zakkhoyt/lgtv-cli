@@ -1,0 +1,61 @@
+.
+├── swift-argument-parser<https://github.com/apple/swift-argument-parser.git@1.6.2>
+├── swift-nio<https://github.com/apple/swift-nio.git@2.92.0>
+│   ├── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+│   ├── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+│   └── swift-system<https://github.com/apple/swift-system.git@1.6.3>
+├── swift-nio-ssl<https://github.com/apple/swift-nio-ssl.git@2.36.0>
+│   └── swift-nio<https://github.com/apple/swift-nio.git@2.92.0>
+│       ├── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+│       ├── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+│       └── swift-system<https://github.com/apple/swift-system.git@1.6.3>
+└── websocket-kit<https://github.com/vapor/websocket-kit.git@2.16.1>
+    ├── swift-nio<https://github.com/apple/swift-nio.git@2.92.0>
+    │   ├── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+    │   ├── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+    │   └── swift-system<https://github.com/apple/swift-system.git@1.6.3>
+    ├── swift-nio-extras<https://github.com/apple/swift-nio-extras.git@1.31.2>
+    │   ├── swift-nio<https://github.com/apple/swift-nio.git@2.92.0>
+    │   │   ├── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+    │   │   ├── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+    │   │   └── swift-system<https://github.com/apple/swift-system.git@1.6.3>
+    │   ├── swift-nio-http2<https://github.com/apple/swift-nio-http2.git@1.39.0>
+    │   │   ├── swift-nio<https://github.com/apple/swift-nio.git@2.92.0>
+    │   │   │   ├── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+    │   │   │   ├── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+    │   │   │   └── swift-system<https://github.com/apple/swift-system.git@1.6.3>
+    │   │   └── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+    │   ├── swift-http-types<https://github.com/apple/swift-http-types.git@1.5.1>
+    │   ├── swift-http-structured-headers<https://github.com/apple/swift-http-structured-headers.git@1.6.0>
+    │   ├── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+    │   ├── swift-algorithms<https://github.com/apple/swift-algorithms.git@1.2.1>
+    │   │   └── swift-numerics<https://github.com/apple/swift-numerics.git@1.1.1>
+    │   ├── swift-certificates<https://github.com/apple/swift-certificates.git@1.17.0>
+    │   │   ├── swift-crypto<https://github.com/apple/swift-crypto.git@4.2.0>
+    │   │   │   └── swift-asn1<https://github.com/apple/swift-asn1.git@1.5.1>
+    │   │   └── swift-asn1<https://github.com/apple/swift-asn1.git@1.5.1>
+    │   ├── swift-nio-ssl<https://github.com/apple/swift-nio-ssl.git@2.36.0>
+    │   │   └── swift-nio<https://github.com/apple/swift-nio.git@2.92.0>
+    │   │       ├── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+    │   │       ├── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+    │   │       └── swift-system<https://github.com/apple/swift-system.git@1.6.3>
+    │   ├── swift-asn1<https://github.com/apple/swift-asn1.git@1.5.1>
+    │   ├── swift-service-lifecycle<https://github.com/swift-server/swift-service-lifecycle.git@2.9.1>
+    │   │   ├── swift-log<https://github.com/apple/swift-log.git@1.8.0>
+    │   │   └── swift-async-algorithms<https://github.com/apple/swift-async-algorithms.git@1.1.1>
+    │   │       └── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+    │   ├── swift-async-algorithms<https://github.com/apple/swift-async-algorithms.git@1.1.1>
+    │   │   └── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+    │   └── swift-log<https://github.com/apple/swift-log.git@1.8.0>
+    ├── swift-nio-ssl<https://github.com/apple/swift-nio-ssl.git@2.36.0>
+    │   └── swift-nio<https://github.com/apple/swift-nio.git@2.92.0>
+    │       ├── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+    │       ├── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+    │       └── swift-system<https://github.com/apple/swift-system.git@1.6.3>
+    ├── swift-nio-transport-services<https://github.com/apple/swift-nio-transport-services.git@1.26.0>
+    │   ├── swift-nio<https://github.com/apple/swift-nio.git@2.92.0>
+    │   │   ├── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+    │   │   ├── swift-collections<https://github.com/apple/swift-collections.git@1.3.0>
+    │   │   └── swift-system<https://github.com/apple/swift-system.git@1.6.3>
+    │   └── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
+    └── swift-atomics<https://github.com/apple/swift-atomics.git@1.3.0>
