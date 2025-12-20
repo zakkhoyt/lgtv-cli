@@ -136,29 +136,5 @@
     },
     "swift.backgroundCompilation": false,
     "swift.disableAutoResolve": true
-  },
-  "launch": {
-    "configurations": [
-      {
-        "type": "swift",
-        "request": "launch",
-        "args": [],
-        "cwd": "${workspaceFolder:lgtv-cli}",
-        "name": "Debug lgtv (lgtv-cli)",
-        "target": "lgtv",
-        "configuration": "debug",
-        "preLaunchTask": "swift: Build Debug lgtv (lgtv-cli)"
-      },
-      {
-        "type": "swift",
-        "request": "launch",
-        "args": [],
-        "cwd": "${workspaceFolder:lgtv-cli}",
-        "name": "Release lgtv (lgtv-cli)",
-        "target": "lgtv",
-        "configuration": "release",
-        "preLaunchTask": "swift: Build Release lgtv (lgtv-cli)"
-      }
-    ]
   }
 }
