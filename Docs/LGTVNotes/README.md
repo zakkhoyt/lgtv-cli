@@ -13,3 +13,26 @@ Quick references for configuring and automating LG OLED displays.
 ## Assets
 
 - [images/](images) – Screenshots referenced throughout the docs (menus, settings, overlays).
+
+
+
+
+### Imgur
+
+**Images referenced in repo docs**
+
+- [LG C1 VRR overlay (LGOLED.md)](https://i.imgur.com/K3Nj4fL.jpg)
+- [LG C1 Quick Access help overlay (LGOLED.md)](https://i.imgur.com/MuUImNO.jpg)
+- [LG C1 mute-button installer menu (LGOLED.md & LGC1_HIDDEN_FEATURES.md)](https://i.imgur.com/NvoUx5v.jpg)
+- [MonitorControl resolution picker (LGOLED_MONITOR.md)](https://i.imgur.com/pkeH9X2.png)
+- [LG C1 Quick Access palette (LGOLED.md)](https://i.imgur.com/UggSgeF.jpg)
+
+**Albums referenced in repo docs**
+
+- [LG C1 Misc Images (LGOLED.md)](https://imgur.com/a/7bqrXOv)
+- [MonitorControl settings (LGOLED_MONITOR.md)](https://imgur.com/a/b5qxzME)
+- [Disable the "No Signal" screensaver (LGOLED.md)](https://imgur.com/a/iLuu1qh)
+- [LG C1 Quick Settings overview (LGOLED.md)](https://imgur.com/a/Tenbvqn)
+- [LG C1 Hotel/Installer menu (LGOLED.md)](https://imgur.com/a/W4Hznf8)
+
+
